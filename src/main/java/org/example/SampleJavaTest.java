@@ -7,7 +7,7 @@ import java.util.List;
 
 public class SampleJavaTest {
 	public static void main(String[] args) {
-
+//https://magento.softwaretestingboard.com/checkout/#shipping
 		// primenumbers up to 50
 //		int num = 50;
 //
@@ -100,20 +100,22 @@ public class SampleJavaTest {
 
 		// ##############NUmber PALINDROME
 
-		int num = 12356, result = 0;
-		int initial = num;
-		while (num > 0) {
+//		int num = 12356, result = 0;
+//		int initial = num;
+//		while (num > 0) {
+//
+//			int temp = num % 10;
+//			result = (result * 10) + temp;
+//			num = num / 10;
+//		}
+//
+//		System.out.println(result);
+//		if (initial == result)
+//			System.out.println("palindrome");
+//		else
+//			System.out.println("not palindrome");
 
-			int temp = num % 10;
-			result = (result * 10) + temp;
-			num = num / 10;
-		}
 
-		System.out.println(result);
-		if (initial == result)
-			System.out.println("palindrome");
-		else
-			System.out.println("not palindrome");
 
 	}
 }
